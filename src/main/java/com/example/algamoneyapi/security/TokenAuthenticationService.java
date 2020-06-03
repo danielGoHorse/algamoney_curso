@@ -15,6 +15,10 @@ import io.jsonwebtoken.SignatureAlgorithm;
 
 public class TokenAuthenticationService {
 	
+	
+	// EXPIRATION_TIME = 30 segundos para teste
+   //static final long EXPIRATION_TIME = 30000;
+
 	// EXPIRATION_TIME = 30 minutos
 	static final long EXPIRATION_TIME = 1800000 ; //valor em Milissegundos (ms)
 	static final String SECRET = "MySecret";
